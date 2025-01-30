@@ -1,0 +1,71 @@
+/* ให้ภาพพื้นหลังครอบคลุมทั้งหน้าจอ */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('IMG_6542.JPG'); /* ใส่ URL หรือชื่อไฟล์ของภาพที่คุณต้องการ */
+    background-size: cover;  /* ทำให้ภาพครอบคลุมทั้งหน้าจอ */
+    background-position: center;  /* จัดตำแหน่งภาพให้อยู่กลาง */
+    background-attachment: fixed; /* ทำให้ภาพไม่เลื่อนตามการเลื่อนของหน้า */
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* การจัดการ .register-container */
+.register-container {
+    background-color: rgba(255, 255, 255, 0.8); /* ให้พื้นหลังสีขาวโปร่งแสง */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Form label and input fields */
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.btn-back {
+    background-color: #f44336;
+    margin-top: 15px;
+}
+
+.btn-back:hover {
+    background-color: #e53935;
+}
