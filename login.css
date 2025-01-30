@@ -1,0 +1,78 @@
+/* การตั้งค่าให้พื้นหลังดูดีและหน้าตาฟอร์ม */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('IMG_6542.JPG'); /* เปลี่ยนเป็น URL ของภาพพื้นหลัง */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* การจัดการ .login-container */
+.login-container {
+    background-color: rgba(255, 255, 255, 0.8); /* ทำให้พื้นหลังโปร่งแสง */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Form label and input fields */
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* ปุ่ม Login */
+button.btn-login {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button.btn-login:hover {
+    background-color: #45a049;
+}
+
+/* ปุ่ม Go Back */
+button.btn-back {
+    width: 100%;
+    padding: 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button.btn-back:hover {
+    background-color: #e53935;
+}
